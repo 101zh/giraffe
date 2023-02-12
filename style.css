@@ -1,54 +1,43 @@
-html, body {
-  height: 100%;
-  width: 100%;
+body {
+  background-color: powderblue;
 }
 
-/* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-  max-height: 10%; 
-  max-width: 100%;
-}
-
-#backimg {
-  background-color: black;
-  filter: brightness(50%);
-}
-
-/* Bottom left text */
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-/* Top left text */
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-/* Top right text */
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-
-/* Bottom right text */
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
-/* Centered text */
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
+  font-size: xx-large;
+  color: white;
   transform: translate(-50%, -50%);
 }
+
+.banner {
+  position: relative;
+  text-align: center;
+  max-height: 40%; 
+  max-width: 100%;
+}
+
+#bannerimg {
+  filter: brightness(75%);
+  height: 25vw;
+  width: 100vw;
+  object-fit: fill;
+}
+
+#persuasion{
+    max-width: fit-content;
+    max-height: 100%;
+}
+
+.circle {
+  height: 5vw; 
+  width: 5vw; 
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 5px gray;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
