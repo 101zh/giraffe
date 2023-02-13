@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giraffes!</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="navbar.css">
+  </head>
+  <body>
+    <main>
+      <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="#persuasion">Facts</a>
+        <a href="https://www.exoticanimalsforsale.net/">Buy Giraffes</a>
+        <a href="https://www.amazon.com/s?k=Giraffe">Merch</a>
+        <a href="game.html">Giraffe Game</a>
+      </div>
+        <h1>Click the Giraffe!</h1>
+        <div id="score">0</div>
+        <img width="75" id="button" src="game.png"></img>
+        <script>
+            let counter = 0;
+            var object = document.getElementById('button');
+
+            object.onclick=function(){
+                counter = counter + 1;
+                document.getElementById('score').innerText = counter;
+                var x = Math.floor(Math.random() * (90 - 0) + 0);
+                var y = Math.floor(Math.random() * (90- 0) + 0);
+                console.log(x)
+                console.log(y)
+                object.style.top = x + '%';
+                object.style.left = y + '%';
+            };
+        </script>
+    </main>
+  </body>
+</html>

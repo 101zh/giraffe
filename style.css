@@ -55,3 +55,20 @@ body {
   color: grey;
   transform: translate(50vw, 12vw);
 }
+
+h1 {
+  text-align: center;
+}
+
+#score{
+  text-align: center;
+  font-size: large;
+}
+
+#button { 
+  cursor: pointer;
+  position: absolute; 
+  top: 0px; 
+  left: 0px; 
+  transition: all 0s;
+}
