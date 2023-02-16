@@ -17,6 +17,7 @@
         <a href="game.html">Giraffe Game</a>
       </div>
         <h1>Click the Giraffe!</h1>
+        <h1 id="mult"></h1>
         <div id="score">0</div>
         <img width="75" id="button" src="game.png"></img>
         <script>
@@ -26,10 +27,12 @@
             
             object.onclick=function(){
               var rand = Math.floor(Math.random() * (100 - 0) + 0);
-              if (rand<4){
-                multiplier=2
+              if (rand<3){
+                multiplier=10
+                document.getElementById('mult').innerText = "x10 Multplier";
               } else {
                 multiplier=0
+                document.getElementById('mult').innerText = "";
               }
               counter = counter + 1 * multiplier;
               document.getElementById('score').innerText = counter;
