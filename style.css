@@ -21,7 +21,7 @@ body {
 #bannerimg {
   filter: brightness(75%);
   height: 25vw;
-  width: 99vw;
+  width: 98vw;
   object-fit: fill;
 }
 
@@ -53,7 +53,7 @@ body {
   position: absolute;
   font-size: xx-large;
   color: grey;
-  width: 10vw;
+  width: 30vw;
   transform: translate(50vw, 12vw);
 }
 
