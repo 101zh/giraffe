@@ -53,6 +53,7 @@ body {
   position: absolute;
   font-size: xx-large;
   color: grey;
+  width: 10vw;
   transform: translate(50vw, 12vw);
 }
 
