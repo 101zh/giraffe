@@ -21,7 +21,7 @@ body {
 #bannerimg {
   filter: brightness(75%);
   height: 25vw;
-  width: 100vw;
+  width: 99vw;
   object-fit: fill;
 }
 
@@ -31,13 +31,44 @@ body {
 }
 
 .circle {
-  height: 5vw; 
-  width: 5vw; 
-  border: 2px solid #fff;
+  border: 2px solid gray;
+  color: white;
   border-radius: 50%;
   box-shadow: 0 0 5px gray;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
+#pic1 {
+  height: 30vw; 
+  width: 30vw;
+  margin: 10vw;
+
+}
+
+#pic1img {
+  height: 30vw; 
+  width: 30vw;
+}
+
+#fact1 {
+  position: absolute;
+  font-size: xx-large;
+  color: grey;
+  transform: translate(50vw, 12vw);
+}
+
+h1 {
+  text-align: center;
+}
+
+#score{
+  text-align: center;
+  font-size: large;
+}
+
+#button { 
+  cursor: pointer;
+  position: absolute; 
+  top: 0px; 
+  left: 0px; 
+  transition: all 0s;
+}
